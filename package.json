@@ -1,0 +1,29 @@
+{
+  "name": "symphony-api",
+  "version": "0.1.0",
+  "description": "node implementation of the symphony api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ondoher/symphony-api.git"
+  },
+  "keywords": [
+    "symphony",
+    "node",
+    "api"
+  ],
+  "author": "Glenn Anderson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ondoher/symphony-api/issues"
+  },
+  "homepage": "https://github.com/Ondoher/symphony-api#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.80.0",
+    "url-join": "^1.1.0"
+  }
+}
