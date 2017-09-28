@@ -17,10 +17,10 @@ var symphonyApi = require('symphony-api');
 var fs = require('fs');
 
 var urls = {
-	keyUrl: 'https://mypod.symphony.com:8444/keyauth',
-	sessionUrl: 'https://mypod.symphony.com:8444/sessionauth',
-	agentUrl: 'https://mypod.symphony.com:8444/agent',
-	podUrl: 'https://mypod.symphony.com:443/pod'
+	keyUrl: 'https://foundation-dev-api.symphony.com/keyauth',
+	sessionUrl: 'https://foundation-dev-api.symphony.com/sessionauth',
+	agentUrl: 'https://foundation-dev.symphony.com/agent',
+	podUrl: 'https://foundation-dev.symphony.com/pod'
 };
 
 
