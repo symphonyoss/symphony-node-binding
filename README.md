@@ -5,7 +5,7 @@ A node.js symphony api implementation
 To use the library, run this command in your project's root path.
 
 ```
-npm -install symphony-api --save
+npm install symphony-api --save
 ```
 
 # Getting Started
@@ -31,13 +31,9 @@ var passphrase = 'this is my passphrase'
 var api = symphonyApi.create(urls);
 api.setCerts(cert, key, passphrase)
 api.authenticate()
-	.then()
-	{
-		api.stream.list()
-			.then(function(streams)
-			{
-				if (streams.length > 0) api.message.send(streams[0].id, 'text', 'hello there');
-			});
+	.then(() => api.stream.list())
+	.then((streams) => {
+		if (streams.length > 0) api.message.send(streams[0].id, 'text', 'hello there');
 	});
 ```
 
