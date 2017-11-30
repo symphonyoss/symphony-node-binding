@@ -5,7 +5,7 @@ A node.js symphony api implementation
 To use the library, run this command in your project's root path.
 
 ```
-npm -install symphony-api --save
+npm install symphony-api --save
 ```
 
 # Getting Started
