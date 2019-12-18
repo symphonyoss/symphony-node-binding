@@ -1,6 +1,8 @@
 # symphony-api
 A node.js symphony api implementation
 
+[![FINOS - Archived](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-archived.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Archived)
+
 # Installation
 To use the library, run this command in your project's root path.
 
